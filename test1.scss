@@ -1,0 +1,14 @@
+$center:center;
+
+#root {
+  align-items: $center;
+  align-content: $center;
+  text-align: $center;
+  display: flex;
+  
+  div {
+    width: 10vw;
+    height: 10vh;
+    background-color: #ccc;
+  }
+}

@@ -1,14 +1,12 @@
 #root {
-  width: 100vw;
-  height: 100vh;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
 }
-#root ul {
-  margin: 0;
-  padding: 0;
-}
-#root ul li {
-  width: 100px;
-  height: 300px;
+#root div {
+  width: 10vw;
+  height: 10vh;
   background-color: #ccc;
 }
 
