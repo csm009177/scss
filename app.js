@@ -9,6 +9,7 @@ for(i=0; i<pokemon.all('ko').length; i++) {
 console.log(pokList);
 
 
+
 const http = require('http');
 const fs = require('fs');
 fs.writeFile('./pok.html',
@@ -21,11 +22,10 @@ fs.writeFile('./pok.html',
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
-  <li></li>
-</body>
-</html>
-`,
+<body>`
+  +pokList.join([])+
+  `</body> 
+</html>`,
 
 'utf8',
 
