@@ -6,5 +6,5 @@ for(i=0; i<pokemon.all.length; i++){
   pokemon.all[count] = pokList[i];
   count = count+i;
 }
-console.log(pokList)
-console.log(pokList[0])
+console.log(pokList);
+console.log(pokList[0]);
