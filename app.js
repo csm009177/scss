@@ -1,6 +1,15 @@
-// const pokemon = require('pokemon');
+// call pokemon data
+const pokemon = require('pokemon');
+console.log(pokemon.all('ko'));
+// make pokemon list
+let pokliList = [];
+let count = 0;
+for(i=0; i<pokemon.all('ko').length; i++) {
+  pokliList[i] = `<li>${pokemon.all('ko')[i]}</li>`;
+  count= count + 1;
+}
+console.log(pokliList);
 
-// console.log(pokemon.all('ko'));
 
 const http = require('http');
 const fs = require('fs');
@@ -15,6 +24,7 @@ fs.writeFile('./pok.html',
   <title>Document</title>
 </head>
 <body>
+
 </body>
 </html>
 `,
